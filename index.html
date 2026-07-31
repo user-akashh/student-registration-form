@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Today's Mission Deployment ( Day-5 ) -->
+
+    <header>
+        <nav>
+            <div class="left">
+                <a href="https://skillninjas.in/" target="_blank">
+                    <img class="logo" src="assets/icons/skillninjas-logo.png" alt="simple image">
+                    <span>Skill</span><span class="ninja-text">Ninjas</span>
+                </a>
+
+            </div>
+            <div class="right">
+                <img src="assets/icons/hamburger.png" alt="My icon">
+                <span>Home</span>
+                <span>Programs</span>
+                <span>For Colleges</span>
+                <span>Free Learning</span>
+                <span>Community</span>
+                <span>About</span>
+                <span>Contact</span>
+
+            </div>
+            
+        </nav>
+
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1>Student Registration Form</h1>
+            <h4>Register today and begin your coding journey!</h4>
+        </section>
+
+        <!-- Form-Card -->
+        <section class="form-card">
+            <form>
+                <!-- Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter name">
+                <br><br>
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email">
+                <br><br>
+                <!-- Number -->
+                <label for="number">Phone Number:</label>
+                <input type="number" id="number" name="number" placeholder="Enter number">
+                <br><br>
+                <!-- Gender -->
+                Gender:
+                <input type="radio" class="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" class="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br><br>
+                <!-- Course -->
+                <label for="course">Select Course:</label>
+                <select name="course" class="dropdown" id="course">
+                    <option value="web-development">Web Development</option>
+                    <option value="ai-engineer">AI Engineer</option>
+                    <option value="cyber-security">Cyber Security</option>
+                </select>
+                <br><br>
+                <!-- Address -->
+                <label for="address">Address:</label>
+                <br>
+                <textarea name="address" rows="5" cols="30" placeholder="Enter your address.." id="address"></textarea>
+                <br><br>
+                <!-- Upload file -->
+                <label for="upload-photo">Upload photo: </label>
+                <input type="file" name="photo" id="upload-photo">
+                <br><br>
+                <!-- Terms & Conditions -->
+                <input type="checkbox" class="checkbox" name="terms" id="checkbox">
+                <label for="checkbox">Accept our terms & conditions</label>
+                <br><br>
+                <!-- Submit -->
+                <input class="submit-button" type="submit" value="Register">
+                <!-- Reset -->
+                <input class="clear-button" type="reset" value="Clear">
+            </form>
+        </section>
+
+        <section class="about">
+            <h2>What we provide:</h2>
+            <ul>
+                <li>Expert Mentors</li>
+                <li>SkillNinjas Certificate</li>
+                <li>Strong HTML and CSS fundamentals</li>
+                <li>One to One Guidence</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h4>© 2025 <span>Skill</span><span class="ninja-text">Ninjas </span> --  Tech Education for Bihar | <a href="https://skillninjas.in/" target="_blank">Free Learning Portal</a></h4>
+    </footer>
+
+
+</body>
+</html>
